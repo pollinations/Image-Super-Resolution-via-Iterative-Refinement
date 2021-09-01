@@ -16,7 +16,7 @@
         "train": {
             "name": "imagenet",
             "mode": "HR", // whether need LR img
-            "dataroot": "dataset/imagenet",
+            "dataroot": "dataset/imagenet_16_128",
             "datatype": "img", //lmdb or img, path of img files
             "l_resolution": 16, // low resolution need to super_resolution
             "r_resolution": 128, // high resolution
@@ -28,7 +28,7 @@
         "val": {
             "name": "imagenet",
             "mode": "HR",
-            "dataroot": "dataset/imagenet",
+            "dataroot": "dataset/imagenet_16_128",
             "datatype": "img", //lmdb or img, path of img files
             "l_resolution": 16,
             "r_resolution": 128,
